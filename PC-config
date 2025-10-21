@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PC Konfigurátor – Tomáš Edition</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🖥️ PC Konfigurátor</h1>
+      <p>Vyber si komponenty, sleduj výkon a sestav si ideální PC.</p>
+    </header>
+
+    <main>
+      <section class="configurator">
+        <h2>🔧 Vyber komponenty</h2>
+
+        <div class="component">
+          <label for="cpu">Procesor (CPU):</label>
+          <select id="cpu">
+            <option>Intel Core i3-12100F</option>
+            <option>AMD Ryzen 5 5600</option>
+            <option>Intel Core i5-13400F</option>
+          </select>
+        </div>
+
+        <div class="component">
+          <label for="gpu">Grafická karta (GPU):</label>
+          <select id="gpu">
+            <option>RTX 3050</option>
+
+            <option>RX 6600
+            <option> RX 665XT
+            <option>RX 6750XT
+            <option>RX 6800
+            <option> RX 6950XT
+            <option>RX 7600</option>
+            <option>RX 7600XT</option>
+            <option>RX 7800</option>
+            <option>RX 7900</option>
+            <option>RX 7900XT</option>
+            <option>RX 7900 GRE</option>         
+            <option>RX 7900XTX </option>
+            <option>RTX 4060</option>
+            <option>RTX 4070</option>
+            <option>RTX 4080</option>
+            <option>RTX 4090</option>
+            <option> RTX 5050</option>
+            <option>RTX 5060        
+            <option>5060TI
+            <option>RTX 5070
+            <option>RTX 5070TI
+            <option> RTX 5080
+            <option>RTX 5090
+            <option>Integrovaná (HTPC)</option>
+          </select>
+        </div>
+
+        <div class="component">
+          <label for="ram">Operační paměť (RAM):</label>
+          <select id="ram">
+            <option>16 GB DDR4</option>
+            <option>32 GB DDR4</option>
+            <option>64GB DDR4</option>
+            <option>32GB DDR5
+            <option>64 GB DDR5</option>
+          </select>
+        </div>
+
+        <div class="component">
+          <label for="storage">Úložiště:</label>
+          <select id="storage">
+            <option>512 GB NVMe</option>
+
+         
+            <option>256GB NVMe
+            <option>480GB SATA SSD 2.5"
+            <option>512GB NVMe
+            <option>512GB SATA SSD 2.5"
+            <option>512GB HDD
+            <option>960GB SATA SSD 2.5"</option>
+            <option>1TB NVMe</option>
+            <option>1TB SATA SSD 2.5"</option>
+            <option>1TB HDD</option>
+            <option>2TB NVMe</option>
+            <option> 2TB HDD</option>
+            <option>2 TB SSD SATA 2.5"</option>
+            <option> 3TB HDD </option>
+            <option>4 TB HDD (NAS)</option>
+          </select>
+        </div>
+
+        <div class="component">
+          <label for="purpose">Účel sestavy:</label>
+          <select id="purpose">
+            <option>Gaming</option>
+            <option>HTPC</option>
+            <option>NAS / Emby</option>
+            <option>Domácí využití</option>
+            <option>kancelář</option>
+            <option>workstation</option>
+          </select>
+        </div>
+
+        <button id="generate">📊 Zobrazit výkon a doporučení</button>
+      </section>
+
+      <section class="results" id="results">
+        <h2>📈 Výsledky konfigurace</h2>
+        <p>Zde se zobrazí odhad výkonu, doporučení a možnosti upgradu.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Tomáš – PC Konfigurátor Edition</p>
+    </footer>
+  </div>
+</body>
+</html>
